@@ -23,7 +23,6 @@ const horizontalScroll = {
         e.preventDefault();
 
         var e = window.event || e;
-        console.log(e);
         //Determine if Chrome due to Chrome 61 removing document.body scroll events.
         //Ref: https://stackoverflow.com/questions/45061901/chrome-61-body-doesnt-scroll
         var scrollNode = document.scrollingElement ? document.scrollingElement : document.body;
